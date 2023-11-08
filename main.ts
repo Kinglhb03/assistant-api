@@ -3,9 +3,6 @@ const OpenAI = require("openai")
 import * as dotenv from "dotenv";
 import * as fs from "fs";
 
-//npm install -g ts-node
-//ts-node filename.ts
-
 dotenv.config()
 
 const openai = new OpenAI({
@@ -45,7 +42,7 @@ async function main() {
 
     // Log the first greeting
     console.log(
-      "\nHello there, I'm your personal math tutor. Ask some complicated questions.\n"
+      "\nHello there, I'm your personal math tutor. Ask some complicated questions about your .\n"
     );
 
     // Create a thread
